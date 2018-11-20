@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from .models import Image
 
-# Create your views here.
+def home_page(request):
+    images = Image.objects.order_by('?').first()
+    return render(request, 'core/home_page.html', {'images' : images})
+    

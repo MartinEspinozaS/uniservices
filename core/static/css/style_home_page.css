@@ -1,0 +1,32 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: #2339AC;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.img-buho{
+    height: 2em;
+    padding: 0.5em;
+}
+
+.main-btn{
+    background-color: #FFCD00;
+    margin-bottom: 0.5em;
+}
+
+.carrousel{
+    background-color: #C4C4C4;
+}
+
+.footer{
+    background-color: #FFCD00;
+}
+h1{
+    font-size: 36px;
+    
+    font-weight: bold;
+    color: #FFCD00;
+}
