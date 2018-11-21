@@ -8,7 +8,7 @@
 }
 
 .img-buho{
-    height: 2em;
+    height: 5em;
     padding: 0.5em;
 }
 
@@ -30,3 +30,9 @@ h1{
     font-weight: bold;
     color: #FFCD00;
 }
+iframe { 
+    width: 640px; 
+    height: 480px; 
+    margin:  auto; 
+    display: block; 
+    } 
