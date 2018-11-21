@@ -1,4 +1,8 @@
 {% extends 'core/base.html' %}
+{% load static %}
+{% load staticfiles %}
+
+
 {% block content %}
 <!-- INICIA EL POST-HEADER -->
 <div class="container">
@@ -22,13 +26,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <iframe src="https://drive.google.com/file/d/1xZYJLMxCuQbrbTq9RtP_MXWuOBML5roQ/preview"></iframe>
+            <img src="{% static 'img/equipoadsi1.jpg' %}" alt="" class="img-car">
         </div>
         <div class="item">
-            <iframe src="https://drive.google.com/file/d/1EWgHH0_XBOCI7b44LBSd-fx3ursRxUkS/preview"></iframe>
+            <img src="{% static 'img/equipoadsi2.jpg' %}" alt="" class="img-car">
         </div>
         <div class="item">
-            <iframe src="https://drive.google.com/file/d/10cRaHEoSsCpMLX-G5d28g3dQb6QqEgUa/preview"></iframe>
+            <img src="{% static 'img/equipoadsi3.jpg' %}" alt="" class="img-car">
         </div>
     </div>
 

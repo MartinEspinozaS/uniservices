@@ -30,9 +30,9 @@ h1{
     font-weight: bold;
     color: #FFCD00;
 }
-iframe { 
+.img-car{
     width: 640px; 
     height: 480px; 
     margin:  auto; 
     display: block; 
-    } 
+}
