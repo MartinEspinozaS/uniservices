@@ -1,0 +1,154 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load staticfiles %}
+
+
+{% block content %}
+
+<div id="header">
+  <ul class="nav">
+
+  |<li><a href="{% url 'lista_campus' %}"><FONT SIZE=5>Servicios     </FONT></a>
+    <ul>
+      <li><a href="">servicio</a></li>
+      <li><a href="">otro</a></li>
+    </ul>
+  </li>
+
+  <li><a href=""><FONT SIZE=5>Iniciar sesión</FONT></a>
+    <ul>
+      <li><a href="">Estudiante</a></li>
+        <li><a href="">Tutor</a></li>
+        <li><a href="">Administrador</a></li>
+    </ul>
+  |</li>
+  </ul>
+</div>
+
+<center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+<tr>
+   <td bgcolor="#481fb2">
+   <font color="ffffff" face="arial, verdana, helvetica">
+   <center><FONT SIZE=5>Listado de servicios: Ingeniería</FONT></center>
+   </font>
+</tr>
+</table></center>
+<center><table HEIGHT="450" width="75%" cellspacing="1" cellpadding="3" border="0">
+<tr>
+   <td bgcolor="#e5e3e9">
+   <font color="#000000" face="arial, verdana, helvetica">
+   <center>
+
+     <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="aaa7b0">
+        <font color="#030303" face="arial, verdana, helvetica">
+        <div style="padding-left:30px;"><a href="{% url 'infoservice' %}"><FONT SIZE=3>Tutorías de Calculo</FONT></a></div>
+        </font>
+
+        <font color="#d6d4d4" face="arial, verdana, helvetica">
+        <FONT SIZE=3>pequeña descripción</FONT>
+        </font>
+     </tr>
+     </table></center>
+
+     <center><table HEIGHT="25" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="e5e3e9">
+        <font color="#000000" face="arial, verdana, helvetica">
+
+        </font>
+     </tr>
+     </table></center>
+     <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="aaa7b0">
+          <font color="#030303" face="arial, verdana, helvetica">
+            <div style="padding-left:30px;"><a href="{% url 'infoservice' %}"><FONT SIZE=3>Tutorías de Algebra</FONT></a></div>
+            </font>
+
+        <font color="#d6d4d4" face="arial, verdana, helvetica">
+          <FONT SIZE=3>pequeña descripción</FONT>
+          </font>
+     </tr>
+     </table></center>
+
+     <center><table HEIGHT="25" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="e5e3e9">
+        <font color="#000000" face="arial, verdana, helvetica">
+
+        </font>
+     </tr>
+     </table></center>
+     <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="aaa7b0">
+          <font color="#030303" face="arial, verdana, helvetica">
+            <div style="padding-left:30px;"><a href="{% url 'infoservice' %}"><FONT SIZE=3>Tutorías de Programacion</FONT></a></div>
+            </font>
+
+        <font color="#d6d4d4" face="arial, verdana, helvetica">
+          <FONT SIZE=3>pequeña descripción</FONT>
+          </font>
+     </tr>
+     </table></center>
+
+     <center><table HEIGHT="25" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="e5e3e9">
+        <font color="#000000" face="arial, verdana, helvetica">
+
+        </font>
+     </tr>
+     </table></center>
+     <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="aaa7b0">
+          <font color="#030303" face="arial, verdana, helvetica">
+            <div style="padding-left:30px;"><a href="{% url 'infoservice' %}"><FONT SIZE=3>Tutorías de Logistica</FONT></a></div>
+            </font>
+
+        <font color="#d6d4d4" face="arial, verdana, helvetica">
+          <FONT SIZE=3>pequeña descripción</FONT>
+          </font>
+
+     </tr>
+     </table></center>
+
+     <center><table HEIGHT="25" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="e5e3e9">
+        <font color="#000000" face="arial, verdana, helvetica">
+
+        </font>
+     </tr>
+     </table></center>
+     <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="aaa7b0">
+          <font color="#030303" face="arial, verdana, helvetica">
+            <div style="padding-left:30px;"><a href="{% url 'infoservice' %}"><FONT SIZE=3>Tutorías de Base de Datos</FONT></a></div>
+            </font>
+
+        <font color="#d6d4d4" face="arial, verdana, helvetica">
+          <FONT SIZE=3>pequeña descripción</FONT>
+          </font>
+
+     </tr>
+     </table></center>
+
+     <center><table HEIGHT="25" width="75%" cellspacing="1" cellpadding="3" border="0">
+     <tr>
+        <td bgcolor="e5e3e9">
+        <font color="#000000" face="arial, verdana, helvetica">
+        </font>
+     </tr>
+     </table></center>
+
+   </center>
+   </font>
+</tr>
+</table></center>
+
+{% endblock %}

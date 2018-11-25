@@ -1,0 +1,107 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div id="header">
+    <ul class="nav">
+  
+    |<li><a href="{% url 'lista_campus' %}"><FONT SIZE=5>Servicios     </FONT></a>
+      <ul>
+        <li><a href="">servicio</a></li>
+        <li><a href="">otro</a></li>
+      </ul>
+    </li>
+  
+    <li><a href=""><FONT SIZE=5>Iniciar sesión</FONT></a>
+      <ul>
+        <li><a href="">Estudiante</a></li>
+        <li><a href="">Tutor</a></li>
+        <li><a href="">Administrador</a></li>
+      </ul>
+    |</li>
+    </ul>
+  </div>
+
+  <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+    <tr>
+       <td bgcolor="#481fb2">
+       <font color="ffffff" face="arial, verdana, helvetica">
+       <center><FONT SIZE=5>Elige el campo que desees: </FONT></center>
+       </font>
+    </tr>
+    </table></center>
+
+       <!--GRID (GRIS) -->
+
+<div>
+    <center><table HEIGHT="450" width="75%" cellspacing="1" cellpadding="3" border="0">
+        <tr>
+           <td bgcolor="#e5e3e9">
+            <center><div class="row">
+                  <div class="col">
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                    <br> Hermosillo </br>
+                  </div>
+                  <div class="col">
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                    <br> Cajeme </br>
+                  </div>
+                  <div class="col">
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                      <br> Santa Ana </br>
+                  </div>
+                </div></center>
+            </td>
+            
+        </tr>
+        <tr><td bgcolor="#e5e3e9">
+            <center><div class="row">
+                  <div class="col">
+                    <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                    <br> Nogales </br>
+                  </div>
+                  <div class="col">
+                      <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                    <br> Caborca </br>
+                  </div>
+                  <div class="col">
+                      <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                      <br> Navojoa </br>
+                  </div>
+                  <div class="col">
+                      <a href="{% url 'lista_departamento' %}" class="top-menu"><img src="{% static 'img/circulo.jpg' %}" alt="" class="img-circulo"></a>
+                      <br> En Linea </br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  </div>
+
+                  
+                </div></center>
+            </td></tr>
+
+            
+
+      </table></center>
+
+      
+</div>
+
+
+	
+            
+</div>
+
+{% endblock %}

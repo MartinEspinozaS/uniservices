@@ -17,6 +17,62 @@
     margin-bottom: 0.5em;
 }
 
+<style>
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+
+#header {
+  margin:auto;
+  width:100%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color:#c6d6d9;
+  color:#000;
+  text-decoration:none;
+  padding:16px 265px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#f1dc3e  ;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+
+</style>
+
+
+<!-.Tutoria-btn{
+  width: 500px;
+  height:50px;
+    background-color: #FFCD00;
+    margin-bottom: 2em;
+
+}
+
 .carrousel{
     background-color: #C4C4C4;
 }
@@ -35,4 +91,10 @@ h1{
     height: 480px; 
     margin:  auto; 
     display: block; 
+}
+.img-circulo{
+  width: 160px; 
+  height: 120px; 
+  margin:  auto; 
+  display: block; 
 }

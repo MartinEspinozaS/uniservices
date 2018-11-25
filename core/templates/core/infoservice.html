@@ -1,0 +1,58 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div id="header">
+    <ul class="nav">
+  
+    |<li><a href="{% url 'lista_campus' %}"><FONT SIZE=5>Servicios     </FONT></a>
+      <ul>
+        <li><a href="">servicio</a></li>
+        <li><a href="">otro</a></li>
+      </ul>
+    </li>
+  
+    <li><a href=""><FONT SIZE=5>Iniciar sesión</FONT></a>
+      <ul>
+        <li><a href="">Estudiante</a></li>
+        <li><a href="">Tutor</a></li>
+        <li><a href="">Administrador</a></li>
+      </ul>
+    |</li>
+    </ul>
+  </div>
+
+  <center><table HEIGHT="50" width="75%" cellspacing="1" cellpadding="3" border="0">
+    <tr>
+       <td bgcolor="#481fb2">
+       <font color="ffffff" face="arial, verdana, helvetica">
+       <center><FONT SIZE=5>Informacion del Servicio Seleccionado: </FONT></center>
+       </font>
+    </tr>
+    </table></center>
+
+       <!--GRID (GRIS) -->
+
+<div>
+    <center><table HEIGHT="450" width="75%" cellspacing="1" cellpadding="3" border="0">
+        <tr>
+           <td bgcolor="#e5e3e9">
+           <font color="#000000" face="arial, verdana, helvetica">
+              <h2 align="center"><div class="flex-container">Tutorias de Matematicas</div><br></br>
+              <div align=left class="cell g">Horario del servicio:</div>
+              <div align=left class="cell h">Descripcion:</div>
+              <div align=left class="cell i">Ubicacion:</div>
+              <div align=left class="cell j">Informacion del contacto:</div>
+              <div align=left class="cell k">Liga:</div>
+              <div align=left class="cell l">Fotos:</div>
+            </font> </td>
+        </tr></table></center>
+</div>
+
+	
+            
+</div>
+
+{% endblock %}
